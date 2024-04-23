@@ -3,7 +3,7 @@ import fs from "fs";
 import {urlGetArgs} from "./js-util.js";
 import {getNpmPackageFiles} from "./npm-util.js";
 import {TarWriter} from "@gera2ld/tarjs";
-import {Blob} from "buffer";
+//import {Blob} from "buffer";
 
 export default class NpmPackageServer {
 	constructor(options={}) {
